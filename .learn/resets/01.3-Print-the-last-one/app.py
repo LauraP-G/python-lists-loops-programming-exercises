@@ -11,8 +11,6 @@ def generate_random_list():
     return aux_list
 
 my_stupid_list = generate_random_list()
-the_last_one=len(my_stupid_list)
-print(the_last_one)
 
 # Write your code below this comment, good luck!
 
