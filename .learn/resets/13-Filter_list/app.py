@@ -3,11 +3,8 @@ all_numbers = [23,12,35,5,3,2,3,54,3,21,534,23,42,1]
 
 def filter_function(item):
     # Update here
-    return item > 10
+    return item % 2 == 1
     
 greater_than_ten = list(filter(filter_function, all_numbers))
-
-#con lambda
-#greater_than_ten = list(filter(lambda element: element>10, all_numbers))
 
 print(greater_than_ten)
