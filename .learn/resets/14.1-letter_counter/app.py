@@ -3,14 +3,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 counts = {}
 
 # Your code here
-for letra in par:
-    if letra != ' ':
-        letra = letra.lower()
-        if letra in counts:
-            counts[letra] += 1
-        else:
-            counts[letra]=1
-        
 
 
 print(counts)

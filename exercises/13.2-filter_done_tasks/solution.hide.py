@@ -11,9 +11,11 @@ tasks = [
 
 
 # Your code here
-def filter_done_tasks(task):
-    return task["done"]
+# def filter_done_tasks(task):
+#     return task["done"]
 
-done_tasks = list(filter(filter_done_tasks, tasks))
+# done_tasks = list(filter(filter_done_tasks, tasks))
+
+done_tasks = list(filter lambda element : element['done'], tasks)
 
 print(done_tasks)
